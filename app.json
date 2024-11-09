@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RN_app",
-    "slug": "RN_app",
+    "name": "Be Productive",
+    "slug": "Be_Productive",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chandru_bose.Be_Productive"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0d0d0bbe-33d3-4901-b8b1-1df120f045bd"
+      }
     }
   }
 }
